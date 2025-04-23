@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               git branch: 'main',  url: 'https://github.com/javaexpresschannel/test1.git'
+               git branch: 'main',  url: 'https://github.com/javaexpresschannel/eureka-server.git'
             }
         }
 
